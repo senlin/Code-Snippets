@@ -1,0 +1,15 @@
+@font-face {font-family: 'ProximaNovaSoft-Medium';src: url('fonts/eot/style_197263.eot');src: url('fonts/eot/style_197263.eot?#iefix') format('embedded-opentype'),url('fonts/woff/style_197263.woff') format('woff'),url('fonts/ttf/style_197263.ttf') format('truetype'),url('fonts/svg/style_197263.svg#ProximaNovaSoft-Medium') format('svg');}
+@font-face {font-family: 'ProximaNovaSoft-Semibold';src: url('fonts/eot/style_197262.eot');src: url('fonts/eot/style_197262.eot?#iefix') format('embedded-opentype'),url('fonts/woff/style_197262.woff') format('woff'),url('fonts/ttf/style_197262.ttf') format('truetype'),url('fonts/svg/style_197262.svg#ProximaNovaSoft-Semibold') format('svg');}
+@font-face {font-family: 'ProximaNovaSoft-Bold';src: url('fonts/eot/style_197261.eot');src: url('fonts/eot/style_197261.eot?#iefix') format('embedded-opentype'),url('fonts/woff/style_197261.woff') format('woff'),url('fonts/ttf/style_197261.ttf') format('truetype'),url('fonts/svg/style_197261.svg#ProximaNovaSoft-Bold') format('svg');}
+@font-face {font-family: 'ProximaNovaSoft-Regular';src: url('fonts/eot/style_197260.eot');src: url('fonts/eot/style_197260.eot?#iefix') format('embedded-opentype'),url('fonts/woff/style_197260.woff') format('woff'),url('fonts/ttf/style_197260.ttf') format('truetype'),url('fonts/svg/style_197260.svg#ProximaNovaSoft-Regular') format('svg');}
+
+@font-face {
+    font-family: 'JosefinSlabRegular';
+    src: url('fonts/JosefinSlab-Regular-webfont.eot');
+    src: url('fonts/JosefinSlab-Regular-webfont.eot?#iefix') format('embedded-opentype'),
+         url('fonts/JosefinSlab-Regular-webfont.woff') format('woff'),
+         url('fonts/JosefinSlab-Regular-webfont.ttf') format('truetype'),
+         url('fonts/JosefinSlab-Regular-webfont.svg#JosefinSlabRegular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}

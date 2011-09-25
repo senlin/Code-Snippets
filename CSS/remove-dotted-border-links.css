@@ -1,0 +1,2 @@
+/* removes ugly dotted border of links but may make template more unsuable, up to you if you want to keep it! */
+*:focus{outline:none;}
