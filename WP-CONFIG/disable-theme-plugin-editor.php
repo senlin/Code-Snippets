@@ -1,0 +1,3 @@
+<?php
+// DISABLE THEME/PLUGIN EDITOR
+define('DISALLOW_FILE_EDIT',true);
