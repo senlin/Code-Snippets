@@ -11,11 +11,13 @@ add_action('login_head',  'my_custom_login_logo');
 function change_wp_login_url()
 {
 	echo bloginfo('url');  // OR ECHO YOUR OWN URL
-}add_filter('login_headerurl', 'change_wp_login_url');
+}
+add_filter('login_headerurl', 'change_wp_login_url');
 
 // CUSTOM ADMIN LOGIN LOGO & ALT TEXT
 
 function change_wp_login_title()
 {
 	echo get_option('blogname'); // OR ECHO YOUR OWN ALT TEXT
-}add_filter('login_headertitle', 'change_wp_login_title');
+}
+add_filter('login_headertitle', 'change_wp_login_title');
