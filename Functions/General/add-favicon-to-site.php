@@ -7,7 +7,7 @@ add_action('wp_head', 'blog_favicon');
 
 // add favicon to your site II
 function add_favicon() {
-	echo '<link rel="shortcut icon" href="<?php echo bloginfo("stylesheet_directory") ?>/images/favicon.png"/>';
+	echo '<link rel="shortcut icon" href="<?php echo bloginfo("stylesheet_directory") ?>/images/favicon.ico"/>';
 }
 add_action('wp_head', 'add_favicon');
 
@@ -23,3 +23,9 @@ function GravatarAsFavicon() {
 <link rel="shortcut icon" href="<?php GravatarAsFavicon(); ?>" />
 
 <?php
+
+// add favicon to your site IV
+function my_favicon() { ?>
+<link rel="shortcut icon" href="yourimagepathgoeshere" >
+<?php }
+add_action('wp_head', 'my_favicon');
