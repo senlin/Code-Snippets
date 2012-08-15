@@ -8,4 +8,4 @@ function older_post_message () {
 		echo '<div class=older-post-message>' . __('This post was written more than a year ago and <em>might</em> not be entirely accurate anymore.', 'wptips') . '</div><br />';
 	}
 }
-add_action('loop_start','older_post_message');
+add_action('get_template_part_content','older_post_message');
