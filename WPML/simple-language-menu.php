@@ -45,4 +45,4 @@ if (!function_exists('so_language_menu'))
 <?php
 // Call in theme (header):
 ?>
-<?php language_menu(); ?>
+<?php so_language_menu(); ?>
