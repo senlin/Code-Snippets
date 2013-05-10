@@ -1,5 +1,5 @@
 <?php
-function remove_menus () {
+function so_remove_menus () {
 global $menu;
 		$restricted = array(__('Links')); // OR $restricted = array(__('Links'), __('Media'));
 		end ($menu);
@@ -8,26 +8,26 @@ global $menu;
 			if(in_array($value[0] != NULL?$value[0]:"" , $restricted)){unset($menu[key($menu)]);}
 		}
 }
-add_action('admin_menu', 'remove_menus');
+add_action('admin_menu', 'so_remove_menus');
 
 // menu is made invisible, URL is still there!
-function remove_top_level_menu() {
+function so_remove_top_level_menu() {
 global $menu;
 //remove post top level menu
 unset($menu[5]);
 }
-add_action('admin_head', 'remove_top_level_menu');
+add_action('admin_head', 'so_remove_top_level_menu');
 
 // menu is made invisible, URL is still there!
-function remove_sub_menu() {
+function so_remove_sub_menu() {
 global $submenu;
 //remove Theme editor
 unset($submenu['themes.php'][10]);
 }
-add_action('admin_head', 'remove_sub_menu');
+add_action('admin_head', 'so_remove_sub_menu');
 
 // everything gone including URLs; menus of plugins need to be added separately
-function remove_all_menus () {
+function so_remove_all_menus () {
 global $menu, $submenu, $user_ID;
 	$the_user = new WP_User($user_ID);
 	$valid_page = "admin.php?page=contact-form-7/admin/admin.php"; // only contactform7 is allowed
@@ -58,4 +58,4 @@ global $menu, $submenu, $user_ID;
 		exit(0);
 	}
 }
-add_action('admin_menu', 'remove_all_menus');
+add_action('admin_menu', 'so_remove_all_menus');

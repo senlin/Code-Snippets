@@ -1,5 +1,5 @@
 <?php //display a message on older posts
-function older_post_message () {
+function so_older_post_message () {
 	$posted = get_the_time('U');
 	$current = current_time('timestamp');
 	//Convert difference in seconds to days
@@ -8,4 +8,4 @@ function older_post_message () {
 		echo '<div class=older-post-message>' . __('This post was written more than a year ago and <em>might</em> not be entirely accurate anymore.', 'wptips') . '</div><br />';
 	}
 }
-add_action('get_template_part_content','older_post_message');
+add_action('get_template_part_content','so_older_post_message');

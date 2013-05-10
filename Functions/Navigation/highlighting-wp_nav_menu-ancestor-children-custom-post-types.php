@@ -1,7 +1,10 @@
-<?php // The code below then finds the menu item with this class CPT-menu-item and adds another “current_page_parent” class to it.  Furthermore, it removes the “current_page_parent” from the blog menu item, if this is present. Via http://vayu.dk/highlighting-wp_nav_menu-ancestor-children-custom-post-types/
+<?php
+	// The code below then finds the menu item with this class CPT-menu-item and adds another “current_page_parent” class to it.
+	// Furthermore, it removes the “current_page_parent” from the blog menu item, if this is present.
+	// Source: http://vayu.dk/highlighting-wp_nav_menu-ancestor-children-custom-post-types/
 
-add_filter('nav_menu_css_class', 'current_type_nav_class', 10, 2);
-function current_type_nav_class($classes, $item) {
+add_filter('nav_menu_css_class', 'so_current_type_nav_class', 10, 2);
+function so_current_type_nav_class($classes, $item) {
     // Get post_type for this post
     $post_type = get_query_var('post_type');
 

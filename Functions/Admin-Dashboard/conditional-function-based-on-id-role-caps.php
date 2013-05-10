@@ -1,5 +1,5 @@
 <?php // conditional function based on ID / role / capabilities
-function my_custom_dash() {
+function so_custom_dash() {
 	$user_id = get_current_user_id();
 	if ($user_id == 1) { // is one specific admin role
 	    // Show This
@@ -12,14 +12,14 @@ function my_custom_dash() {
 	}
 }
 
-add_action('admin_head', 'my_custom_dash');
+add_action('admin_head', 'so_custom_dash');
 
 
 // needs to be used in combination with another function, for example: disable-sidebar-menus-4functions.php OR remove-dashboard-widgets.php
 
 // REMOVE DASHBOARD MENUS FOR CERTAIN USERS - http://wordpress.stackexchange.com/questions/20942/allow-user-access-to-dashboard-only/20943#20943
 // DOES NOT ENTIRELY WORK AND ONLY HIDES...
-function hide_menu_items() {
+function so_hide_menu_items() {
 
     global $submenu;
 	global $menu;
@@ -53,4 +53,4 @@ function hide_menu_items() {
     endwhile;
 
 }
-add_action('admin_head', 'hide_menu_items');
+add_action('admin_head', 'so_hide_menu_items');

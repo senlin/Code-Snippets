@@ -14,5 +14,3 @@ function yoast_add_google_profile( $contactmethods ) {
 	return $contactmethods;
 }
 add_filter( 'user_contactmethods', 'yoast_add_google_profile', 10, 1);
-/** END CUSTOM CONTACT FIELDS PROFILE **/
-?>

@@ -1,7 +1,7 @@
 <?php
 // Create Meta Description from Content
 // source: http://www.paulund.co.uk/automatically-create-meta-description-from-content
-function sl_create_meta_desc() {
+function so_create_meta_desc() {
 	global $post;
 if (!is_single()) { return; }
 	$meta = strip_tags($post->post_content);
@@ -10,4 +10,4 @@ if (!is_single()) { return; }
 	$meta = substr($meta, 0, 125); // number of characters it takes from the content and uses as meta description
 	echo "<meta name='description' content='$meta' />";
 }
-add_action('wp_head', 'sl_create_meta_desc');
+add_action('wp_head', 'so_create_meta_desc');
