@@ -1,0 +1,13 @@
+/**
+ * Borrowed from WordPress default TwentyTwelve theme
+ *
+ * The clip property sets or returns which part of a positioned element is visible. W3Schools: http://www.w3schools.com/jsref/prop_style_clip.asp
+ * 
+ * Seems to be much better than display:none; or text-indent:-9999em; or margin-left:-9999em;
+ */
+
+
+.site-title, .site-description {
+    clip: rect(1px, 1px, 1px, 1px);
+    position: absolute;
+}
