@@ -1,0 +1,7 @@
+Use 1 icon instead of 6 to serve as favicon for apple devices.
+
+Source: [WP-Mix](http://wp-mix.com/htaccess-for-apple-touch-icons/)
+
+`RedirectMatch 301 /apple-touch-icon(.*)?.png http://wp-mix.com/apple.png`
+
+Make sure you edit the "wp-mix.com" with your own domain name. Note: the apple.png file should be uploaded to the site's root directory and should measure 114x114px.
