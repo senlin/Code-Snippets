@@ -1,28 +1,34 @@
 <?php
 /**
- * This function hides the WPML nav menu synchronisation link in backend
+ * This function checks whether WPML is active (WPML needs to be active for this to have any use)
+ * and gives a warning message with link to WPML if it is not active.
+ *
+ * modified using http://wpengineer.com/1657/check-if-required-plugin-is-active/ and the _no_wpml_warning function
  */
 
+$plugins = get_option( 'active_plugins' );
 
-if ( is_plugin_active( 'sitepress-multilingual-cms/sitepress.php' ) ) {
-            
-    add_action( 'admin_notices', array( $this, '_no_wpml_warning' ) );
+$required_plugin = 'sitepress-multilingual-cms/sitepress.php';
 
-    return false;            
+if ( ! in_array( $required_plugin , $plugins ) ) {
+
+	add_action( 'admin_notices', 'so_no_wpml_warning' );
 
 }
 
-function _no_wpml_warning() {
-	
-	?>
+function so_no_wpml_warning() {
     
-        <div class="message error"><p><?php printf(__( 'This is a WPML function and therefore only works if you have <a href="%s">the WPML plugin</a> installed.', 'theme-text-domain'), 
-            'http://wpml.org/'); ?></p></div>
-	<?php
+    echo '<div class="message error"><p>';
     
+    printf(__( 'The <strong>remove-wpml-menu-sync function</strong> that you just added to your theme only works if you have the <a href="%s">WPML</a> plugin installed.', 'theme-text-domain' ), 
+        'http://wpml.org/' );
+    
+    echo '</p></div>';
 }
 
-
+/**
+ * This function hides the WPML nav menu synchronisation link in backend
+ */
 function so_hide_wpml_sync_link() {
 
 	?>
