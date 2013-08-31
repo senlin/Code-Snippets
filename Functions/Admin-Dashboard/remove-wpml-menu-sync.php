@@ -34,7 +34,7 @@ function so_hide_wpml_sync_link() {
 	?>
 
 	<style>
-		/* remove WPML nav menu synchronisation link in backend */
+		/* hide WPML nav menu synchronisation link in backend */
 		.howto.icl_nav_menu_text > div > a {
 		    display: none;
 		}
