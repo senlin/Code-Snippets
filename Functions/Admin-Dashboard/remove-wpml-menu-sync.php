@@ -49,7 +49,7 @@ add_action( 'admin_head-nav-menus.php', 'so_hide_wpml_sync_link' );
  * This function removes the WPML Menu Sync submenu
  */
 
-/* 20130820 Remove WP Menus Sync - http://wp.tutsplus.com/tutorials/creative-coding/customizing-your-wordpress-admin/ */
+/* Remove WP Menus Sync - http://wp.tutsplus.com/tutorials/creative-coding/customizing-your-wordpress-admin/ */
 function so_remove_wpml_menu_sync() {  
     global $submenu;  
 
