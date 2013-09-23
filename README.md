@@ -1,7 +1,48 @@
-This Repository is to become a collection of WordPress Code Snippets gathered from around the web.
+# Code Snippets
 
-Where deemed necessary code snippets are attributed.
+###### Author: [Piet Bos](https://github.com/senlin)
 
-If you want to add to it, feel welcome to do so and if you have sth that works better, please add that too!
+Collection of mostly WordPress Code Snippets.
 
-Thanks.
+## Description
+
+This Repository is a collection of WordPress Code Snippets gathered from around the web. 
+
+I started this as a local folder of snippets that I would use frequently, which has as obvious advantage that I didn't have to search through my bookmarks, or worse, click on a link that no longer exists.
+
+When I had collected quite a few Code Snippets I decided that others might as well benefit from it too, so I gave them this Repository on Github.
+
+I still add snippets to the Repository whenever I feel they can benefit me or others.
+
+### Attribution
+
+Where deemed necessary Code Snippets are attributed with the original source.
+
+### so_ prefix
+
+I have prefixed most snippets with "```so_```", you can of course change that to whatever you like.
+
+## Contributions
+
+Feel free to fork this Repository and if you want to contribute to it, that would be much appreciated.
+
+## License
+
+* License: GNU Version 2 or Any Later Version
+* License URI: http://www.gnu.org/licenses/gpl-2.0.html
+
+## Donations
+
+* Donate link: http://senl.in/PPd0na
+
+## Connect with me through
+
+[Github](https://github.com/senlin) 
+
+[Google+](http://plus.google.com/u/0/108543145122756748887) 
+
+[WordPress](http://profiles.wordpress.org/senlin/) 
+
+[Senlin Online](http://senlinonline.com)
+
+[SO WP Plugins](http://so-wp.github.io/)
