@@ -16,7 +16,7 @@ add_filter( 'wp_nav_menu_items', 'so_add_admin_link', 10, 2 );
 
 function so_add_admin_link( $items, $args ) {
     if( $args->theme_location == 'footer_menu' ) { // change 'footer_menu' to the menu in the theme_location of your choice
-        $items = $items . '<li><a title="' . __( 'Admin', 'textdomain' ) . '" href="'. esc_url( admin_url() ) .'">' . __( 'Admin', 'textdomain' ) . '</a></li>';
+        $items = $items . '<li><a title="' . esc_attr( __( 'Admin', 'textdomain' ) ) . '" href="' . esc_url( admin_url() ) . '">' . esc_attr( __( 'Admin', 'textdomain' ) ) . '</a></li>';
     }
     return $items;
 }
