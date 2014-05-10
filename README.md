@@ -33,16 +33,14 @@ Feel free to fork this Repository and if you want to contribute to it, that woul
 
 ## Donations
 
-* Donate link: http://senl.in/PPd0na
+* Donate link: http://so-wp.com/donations/
 
 ## Connect with me through
 
 [Github](https://github.com/senlin) 
 
-[Google+](http://plus.google.com/u/0/108543145122756748887) 
+[Google+](https://plus.google.com/+PietBos) 
 
 [WordPress](http://profiles.wordpress.org/senlin/) 
 
 [Senlin Online](http://senlinonline.com)
-
-[SO WP Plugins](http://so-wp.github.io/)
