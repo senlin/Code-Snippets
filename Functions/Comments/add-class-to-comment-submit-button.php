@@ -62,3 +62,20 @@ add_action( 'comment_form', 'so_comment_button' );
 </script>
 
 <?php
+
+
+/**
+ * Hack #4 - Add the button class to ALL submit buttons
+ * add this script without the `<script>` tags to one of your theme's .js files
+ *
+ * @source: //github.com/tsquez/wp-forge/blob/master/js/functions.js
+ */
+?>
+
+<script type="text/javascript">
+	jQuery(document).ready(function($) {
+	    $('input[type="submit"]').addClass('button');
+	});
+</script>
+
+<?php
