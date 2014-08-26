@@ -18,3 +18,9 @@ function so_remove_wpml_renew_nag_on_lifetime_license() {
 }
 
 add_action( 'admin_notices', 'so_remove_wpml_renew_nag_on_lifetime_license' );
+
+/**
+ * The issue was fixed in the release of WPML 3.1.7.2 on August 26 at around 10pm (GMT+8)
+ * 
+ * What is left is the result of a nice exercise :D 
+ */
