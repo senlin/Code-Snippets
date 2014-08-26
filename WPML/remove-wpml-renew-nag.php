@@ -17,4 +17,4 @@ function so_remove_wpml_renew_nag_on_lifetime_license() {
 
 }
 
-add_action( 'admin_notices', 'so_disable_wpml_renew_nag_on_lifetime_license' );
+add_action( 'admin_notices', 'so_remove_wpml_renew_nag_on_lifetime_license' );
