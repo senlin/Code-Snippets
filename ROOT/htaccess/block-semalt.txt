@@ -1,0 +1,18 @@
+# The site "Semalt.com" pretends to visit your website as a regular visitor and therewith skews your Analytics
+# The site "Buttons for Website" sends referrer spam your way
+#
+# Here a Code Snippet to block both, add it to the .htaccess file in the root of your WP install
+#
+# @source: //www.street-punk-productions.com/block-semalt-buttons-website-bots/
+
+# block visitors referred from semalt.com
+RewriteEngine on
+RewriteCond %{HTTP_REFERER} semalt\.com [NC]
+RewriteRule .* – [F]
+# End semalt block
+
+# block referer spam buttons for website
+RewriteEngine On
+RewriteCond %{HTTP_REFERER} buttons\-for\-website\.com
+RewriteRule ^.* - [F,L]
+# End buttons for website block
