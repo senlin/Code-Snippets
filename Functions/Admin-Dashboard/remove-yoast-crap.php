@@ -1,4 +1,21 @@
 <?php
+
+/**
+ * Plugin Name: SO Remove Yoast Crap
+ * Plugin URI:  https://github.com/senlin/Code-Snippets/blob/master/Functions/Admin-Dashboard/remove-yoast-crap.php
+ * Description: Set global filter that about page and tour of WordPress SEO plugin are seen resp. done
+ * Author:      SO WP
+ * Author URI:  http://so-wp.com/plugins/
+ * Version:     1.0
+ * License:     GPL2+
+ */
+
+/**
+ * Silence is golden
+ */
+if ( ! defined( 'ABSPATH' ) ) exit;
+
+
 /**
  * After each update of the Yoast WordPress SEO plugin, the user is redirected
  * to the About page of the plugin (admin.php?page=wpseo_dashboard&intro=1#top#new)
