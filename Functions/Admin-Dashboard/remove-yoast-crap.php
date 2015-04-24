@@ -6,7 +6,7 @@
  * This is irritating at best and very unprofessional on websites of (large) companies and organisations
  * with many users that have the Administrator Role.
  *
- * This filter gloabally sets the "see about page" setting and the "ignore tour" setting to true
+ * This filter globally sets the "see about page" setting and the "ignore tour" setting to true
  *
  * Drop this file into the wp-content/mu-plugins folder (create it if it doesn't exist) and you and your fellow Admins
  * will not be disturbed anymore by this nonsense.
