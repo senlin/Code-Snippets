@@ -41,3 +41,15 @@ function so_remove_yoast_crap( $option ) {
 }
 
 add_filter( 'option_wpseo', 'so_remove_yoast_crap' );
+
+// Remove irritating adds sidebar
+function ryc_style_function() {
+	echo '<style type="text/css">
+		#sidebar-container.wpseo_content_cell {display:none;}
+	</style>';
+}
+
+add_action( 'admin_head', 'ryc_style_function' );
+
+// disable page analysis function
+add_filter( 'wpseo_use_page_analysis', '__return_false' );
