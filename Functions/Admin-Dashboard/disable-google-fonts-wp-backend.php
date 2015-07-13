@@ -3,6 +3,8 @@
  * Disable Loading of Google Fonts in WordPress Backend.
  *
  * @source: http://netzklad.de/2014/04/google-fonts-im-wordpress-backend-ohne-plugin-deaktivieren/
+ *
+ * @alternative: ../General/remove-open-sans.php
  */
 
 function so_disable_google_fonts_wp_backend( $styles ) {
