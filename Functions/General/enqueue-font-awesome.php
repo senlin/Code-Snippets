@@ -10,7 +10,7 @@
  *
  */
 function so_fontawesome_url() {
-	$fontawesome_url = '//netdna.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.css';
+	$fontawesome_url = '//netdna.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.css';
 
 	return $fontawesome_url;
 }
@@ -25,6 +25,6 @@ add_action( 'wp_enqueue_scripts', 'so_scripts' );
 function so_scripts() {
 
 	/* STYLES */
-	wp_enqueue_style( 'fontawesome', so_fontawesome_url(), array(), '4.1.0' );
+	wp_enqueue_style( 'fontawesome', so_fontawesome_url(), array(), '4.4.0' );
 
 }
