@@ -7,9 +7,9 @@
  *
  * @source: //wordpress.stackexchange.com/a/91644/2015
  */
-add_action( 'init', 'remove_editor_init' );
+add_action( 'init', 'so_remove_editor' );
 
-function remove_editor_init() {
+function so_remove_editor() {
     // If not in the admin, return.
     if ( ! is_admin() ) {
        return;
