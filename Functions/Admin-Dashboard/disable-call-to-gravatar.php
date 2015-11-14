@@ -9,7 +9,7 @@
  * @source: codex.wordpress.org/Plugin_API/Filter_Reference/get_avatar
  */
 
-add_filter( 'get_avatar', 'so_disable_gravatars', , 10, 2 );
+add_filter( 'get_avatar', 'so_disable_gravatars', 10, 2 );
 
 function so_disable_gravatars( $avatar ) {
 
