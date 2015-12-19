@@ -20,11 +20,11 @@ Where deemed necessary Code Snippets are attributed with the original source.
 
 ### so_ prefix
 
-I have prefixed most snippets with "```so_```", you can of course change that to whatever you like.
+I have prefixed most snippets with "`so_`", you can of course change that to whatever you like.
 
 ## Contributions
 
-Feel free to fork this Repository and if you want to contribute to it, that would be much appreciated.
+Feel free to fork this Repository and if you want to contribute to it, I welcome PRs.
 
 ## License
 
@@ -39,8 +39,8 @@ Feel free to fork this Repository and if you want to contribute to it, that woul
 
 [Github](https://github.com/senlin) 
 
-[Google+](https://plus.google.com/+PietBos) 
-
-[WordPress](http://profiles.wordpress.org/senlin/) 
+[WordPress](https://profiles.wordpress.org/senlin/) 
 
 [Senlin Online](http://senlinonline.com)
+
+[LinkedIn](https://www.linkedin.com/in/pietbos) 
