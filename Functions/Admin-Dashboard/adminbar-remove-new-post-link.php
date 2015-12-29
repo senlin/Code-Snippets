@@ -52,7 +52,7 @@ function so_backend_styling() {
 /* hide the Post and Category from wp-admin/nav-menus.php */
 .nav-menu-meta .add-post, 
 .nav-menu-meta .add-category,
-/* hide the Post, Catrgory and Tags from the Customizer */
+/* hide the Post, Category and Tags from the Customizer */
 .wp-customizer #available-menu-items-post_type-post,
 .wp-customizer #available-menu-items-taxonomy-category,
 .wp-customizer #available-menu-items-taxonomy-post_tag {
