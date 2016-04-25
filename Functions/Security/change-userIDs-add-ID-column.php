@@ -57,7 +57,7 @@ function so_show_userid_column_content( $value, $column_name, $user_id ) {
 }
 
 
-/* If you don't want to much around in the database, you can prevent "author=" searches
+/* If you don't want to muck around in the database, you can prevent "author=" searches
  * by adding this to the .htaccess file in the root
  *
  * @source: comment by user on aforementioned article - //wpwhitesecurity.com/wordpress-security/change-wordpress-administrator-id/#comment-263053
