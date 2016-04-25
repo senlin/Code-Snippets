@@ -1,0 +1,34 @@
+/**
+ * Use as inline styling or add it to the head with an enqueue function
+ *
+ * @source: //linkedin.com/groups/1482937/1482937-6129680092030398468
+ */
+
+ 
+.embed-container {
+	position: relative;
+	padding-bottom: 56.25%;
+	height: 0;
+	overflow: hidden;
+	max-width: 100%;
+}
+
+.embed-container iframe,
+.embed-container object,
+.embed-container embed {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+}
+
+/*
+
+<div class='embed-container'>
+
+	<!!!!place iframe code here!!!!>
+
+</div>
+
+*/
