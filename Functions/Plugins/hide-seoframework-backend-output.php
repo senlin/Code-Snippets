@@ -11,11 +11,9 @@
 
 add_action( 'current_screen', 'so_hide_seo_backend_output_cpt', 9 );
 
-function so_hide_seo_backend_output_cpt() {
+function so_hide_seo_backend_output_cpt( $current_screen ) {
 
-	$current_screen = get_current_screen();
-
-	if ( $current_screen ->post_type === 'wp-help' ) { // change wp-help into your own CPT
+	if ( 'wp-help' === $current_screen->post_type ) { // change wp-help into your own CPT
 
 		add_filter( 'the_seo_framework_seobox_output', '__return_false' );
 
