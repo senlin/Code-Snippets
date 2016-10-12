@@ -15,21 +15,21 @@
  */
 
 // change tableprefix to the prefix you have set for your database
-// change "123" to the ID you want to change it TO
+// change "9680" to the ID you want to change it TO
 // change "1" to the ID of the user you want to change (the current user)
 // MAKE A DATABASE BACKUP BEFORE YOU DO THIS!!!
-UPDATE tableprefix_users SET ID = 123 WHERE ID = 1;
+UPDATE tableprefix_users SET ID = 9680 WHERE ID = 1;
 
 // change tableprefix to the prefix you have set for your database
-// change "123" to the ID you want to change it TO
+// change "9680" to the ID you want to change it TO
 // change "1" to the ID of the user you want to change (the current user)
 // MAKE A DATABASE BACKUP BEFORE YOU DO THIS!!!
-UPDATE tableprefix_usermeta SET user_id = 123 WHERE user_id = 1;
+UPDATE tableprefix_usermeta SET user_id = 9680 WHERE user_id = 1;
 
 // change tableprefix to the prefix you have set for your database
-// change "999" to the assign the counter that WP uses to assign the next user
+// change "3869" to the assign the counter that WP uses to assign the next user
 // MAKE A DATABASE BACKUP BEFORE YOU DO THIS!!!
-ALTER TABLE tableprefix_users AUTO_INCREMENT = 999
+ALTER TABLE tableprefix_users AUTO_INCREMENT = 3869;
 
 
 /**
