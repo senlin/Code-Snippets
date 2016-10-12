@@ -1,0 +1,30 @@
+<?php
+/**
+ * A collection of functions you can use to modify the Storefront WooCommerce theme 
+ *
+ *
+ */
+
+// remove more link in Customizer
+add_filter( 'storefront_customizer_more', '__return_false' );
+
+// remove product search from header or replace with regular site search
+add_action( 'storefront_header', 'so_remove_replace_search', 1 );
+
+function so_remove_replace_search() {
+	remove_action( 'storefront_header', 'storefront_product_search', 40 );
+	// optional add regular search
+	//add_action( 'storefront_header', get_search_form(), 40 );
+}
+
+// change footer credit
+add_action( 'init', 'so_adjust_footer_credit', 10 );
+
+function so_adjust_footer_credit () {
+    remove_action( 'storefront_footer', 'storefront_credit', 20 );
+    add_action( 'storefront_footer', 'so_add_copyright', 20 );
+} 
+
+function so_add_copyright() {
+	echo '<div class="site-info">&copy;' . get_the_date( 'Y' ) . ' ' . get_bloginfo( 'name' ) . '</div>';
+}
