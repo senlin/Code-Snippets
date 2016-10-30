@@ -28,3 +28,35 @@ function so_adjust_footer_credit () {
 function so_add_copyright() {
 	echo '<div class="site-info">&copy;' . get_the_date( 'Y' ) . ' ' . get_bloginfo( 'name' ) . '</div>';
 }
+
+// add topbar - @source: //pootlepress.com/2015/02/21-tips-tricks-and-css-tweaks-for-woothemes-storefront/
+add_action( 'storefront_before_header', 'so_storefront_add_topbar1' );
+
+function so_storefront_add_topbar1() {
+    ?>
+    <div id="topbar">
+        <div class="col-full">
+            <p><?php _e( 'Your text here', 'storefront-child' ); ?></p>
+        </div>
+    </div>
+    <?php
+}
+
+add_action( 'storefront_before_header', 'so_storefront_add_topbar2' );
+
+function so_storefront_add_topbar2() {
+    global $current_user;
+    get_currentuserinfo();
+    if ( ! empty( $current_user->user_firstname ) ) {
+        $user = $current_user->user_firstname;
+    } else {
+        $user = __( 'guest', 'storefront-child' );
+    }
+    ?>
+    <div id="topbar">
+        <div class="col-full">
+            <p><?php printf( 'Welcome %s!', 'storefront-child' ), $user; ?></p>
+        </div>
+    </div>
+    <?php
+}
