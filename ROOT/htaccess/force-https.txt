@@ -1,0 +1,20 @@
+# Force HTTPS on Apache via .htaccess file
+#
+# replace "yourdomain.com" with the actual domain name.
+# 
+# @source: https://www.siteground.com/kb/how-to-force-ssl-with-htaccess/
+# 
+
+# Force entire site to go through https:
+
+RewriteEngine On
+RewriteCond %{SERVER_PORT} 80
+RewriteRule ^(.*)$ https://yourdomain.com/$1 [R=301,L]
+
+# Use this code if site sits in a subfolder:
+
+RewriteEngine On
+RewriteCond %{SERVER_PORT} 80
+RewriteCond %{REQUEST_URI} folder
+RewriteRule ^(.*)$ https://yourdomain.com/folder/$1 [R=301,L]
+
