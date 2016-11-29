@@ -25,3 +25,7 @@ function so_remove_emojis() {
 function so_remove_tinymce_emoji( $plugins ) {
 	return array_diff( $plugins, array( 'wpemoji' ) );
 }
+
+// Remove DNS prefetch s.w.org (used for emojis)
+add_filter( 'emoji_svg_url', '__return_false' );
+
