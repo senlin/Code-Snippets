@@ -5,7 +5,7 @@
 function so_wp_snap($atts, $content = NULL) {
 	extract(shortcode_atts(array(
 		'snap' => 'http://s.wordpress.com/mshots/v1/',
-		'url' => 'http://wpti.ps/',
+		'url' => 'https://bohanintl.com/wptips/',
 		'alt' => 'WP TIPS',
 		'w' => '400', // width
 		'h' => '300' // height
@@ -15,4 +15,4 @@ function so_wp_snap($atts, $content = NULL) {
 	return $img;
 }
 add_shortcode('snap', 'so_wp_snap');
-// Use [snap url="http://wpti.ps/" alt="WP TIPS" w="400" h="300"]
+// Use [snap url="https://bohanintl.com/wptips/" alt="WP TIPS" w="400" h="300"]

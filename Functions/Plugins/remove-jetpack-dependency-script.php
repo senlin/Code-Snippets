@@ -7,7 +7,7 @@
  * Change "TEXTDOMAIN" on line 18 to the name of the parent theme.
  * Best to check the name in the plugin-enhancements.php file of the parent theme (usually the first line of the class)
  *
- * @source: //wpti.ps/?p=663
+ * @source: //bohanintl.com/wptips/?p=663
  */
  
  add_action( 'admin_head', 'bhi_remove_jetpack_dependency', 9 );

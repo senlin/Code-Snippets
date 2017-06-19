@@ -2,7 +2,7 @@
 /**
  * 3 hacks to add a class="button" to the WordPress comment submit button
  *
- * Read accompanying article at http://wpti.ps/?p=489
+ * Read accompanying article at https://bohanintl.com/wptips/?p=489
  */
 
 /**
@@ -17,7 +17,7 @@ $comments_args = array(
     // use the "Text or HTML to be displayed after the set of comment fields"-field to to add a class to the comment submit button
     'comment_notes_after' => '<input type="submit" class="button" id="submit-new" value="' . __( 'Post Comment', 'textdomain' ) . '" />'
 );
- 
+
 comment_form( $comments_args );
 
 
@@ -38,11 +38,11 @@ comment_form( $comments_args );
  */
 
 function so_comment_button() {
-     
+
     echo '<input name="submit" class="button" type="submit" value="' . __( 'Post Comment', 'textdomain' ) . '" />';
-     
+
 }
- 
+
 add_action( 'comment_form', 'so_comment_button' );
 
 

@@ -1,7 +1,7 @@
 <?php
 /**
  * Add Child Theme name to Body ID
- * Post with more info: https://wpti.ps/?p=404
+ * Post with more info: https://bohanintl.com/wptips/?p=404
  */
 ?>
 

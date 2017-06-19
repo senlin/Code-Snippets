@@ -2,7 +2,7 @@
 Name: Social Media Icons Template Part 
 Description: Add Facebook, Twitter, Google+ and LinkedIn sharing to your template files with this easy to adapt tempate-part
 Author: Piet Bos
-Author URI: http://wpti.ps
+Author URI: https://bohanintl.com/wptips
 Instructions: Step 1. Take the code from line 10-36 of this file, paste them into a blank file, save that file as icons-social.php and upload it to your theme's directory. On lines 19 and 21 you need to fill in your Twitter username and on line 24 you need to upload your favourite tweet-button (or grab it from http://a2.twimg.com/a/1319826270/images/goodies/tweetn.png) to the images folder of your theme. Step 2. Take line 39 of this file and paste it into your template files on the place where you want the icons to show up. Step 3. Take the scripts of line 42-49 and paste them in your footer.php file just above the closing </body> tag. Step 4. Style through CSS. NOTE that with the code below you will get 4 working share buttons. If you however want to make adjustments then visit the following pages: Facebook (http://developers.facebook.com/docs/reference/plugins/like/), Twitter (https://dev.twitter.com/docs/tweet-button), Google+ (http://www.google.com/webmasters/+1/button/), LinkedIn (https://developer.linkedin.com/plugins/share-button).
 Version: 1.0
 License: GPLv2

@@ -1,4 +1,4 @@
-<?php // Add Breadcrumb Navigation, original article on: http://wpti.ps/?p=37
+<?php // Add Breadcrumb Navigation, original article on: https://bohanintl.com/wptips/?p=37
 function so_write_breadcrumb() {
     $pid = $post->ID;
  $trail = '<a href="/">'. __('Home', 'so-base') .'</a>';
