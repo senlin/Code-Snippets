@@ -1,12 +1,12 @@
 # Code Snippets
 
-###### Author: [Piet Bos](https://github.com/senlin)
+###### Author: [Pieter Bos](https://github.com/senlin)
 
 Collection of mostly WordPress Code Snippets.
 
 ## Description
 
-This Repository is a collection of WordPress Code Snippets gathered from around the web. 
+This Repository is a collection of Code Snippets related to WordPress gathered from around the web. 
 
 I started this as a local folder of snippets that I would use frequently, which has as obvious advantage that I didn't have to search through my bookmarks, or worse, click on a link that no longer exists.
 
@@ -20,11 +20,11 @@ Where deemed necessary Code Snippets are attributed with the original source.
 
 ### so_ prefix
 
-I have prefixed most snippets with "`so_`", you can of course change that to whatever you like.
+I have prefixed most snippets with "`so_`", which of course can be changed to something else.
 
 ## Contributions
 
-Feel free to fork this Repository and if you want to contribute to it, I welcome PRs.
+Feel free to fork this Repository and I welcome contributions.
 
 ## License
 
@@ -33,7 +33,7 @@ Feel free to fork this Repository and if you want to contribute to it, I welcome
 
 ## Donations
 
-* Donate link: http://so-wp.com/donations/
+* Donate link: https://so-wp.com/donations
 
 ## Connect with me through
 
@@ -41,6 +41,8 @@ Feel free to fork this Repository and if you want to contribute to it, I welcome
 
 [WordPress](https://profiles.wordpress.org/senlin/) 
 
-[Senlin Online](http://senlinonline.com)
+[BHI Consulting for Websites](https://bohanintl.com)
 
-[LinkedIn](https://www.linkedin.com/in/pietbos) 
+[SO WP Plugins](https://so-wp.com)
+
+[LinkedIn](https://www.linkedin.com/in/pieterbos83) 
