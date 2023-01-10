@@ -41,7 +41,7 @@ Feel free to fork this Repository and I welcome contributions.
 
 [WordPress](https://profiles.wordpress.org/senlin/) 
 
-[BHI Consulting for Websites](https://bohanintl.com)
+[BHI Localization for Websites](https://www.bhi-localization.com)
 
 [SO WP Plugins](https://so-wp.com)
 
